@@ -1,0 +1,706 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* width: 1150px; */
+    height: auto;
+    background-color: white;
+    
+}
+.container{
+    width: 900px;
+    margin: auto;
+    
+}
+
+.btn{
+    list-style: none;
+    width: 150px;
+    height: 35px;
+    background-color: #F9B700;   
+    border: none;
+}
+
+header{
+    width: 100%;
+    height: 520px;
+    background-image: linear-gradient(
+    rgba(2, 2, 2, 0.8),rgba(0, 0, 0, 0.8)
+    ), 
+    url(../Images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 0;
+    
+}
+
+header nav .container .logo{
+    margin-top: 8px; 
+  
+}
+
+
+
+header nav .container ul{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+    padding: 0;
+    
+}
+header nav .container ul li{
+    margin-right: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+
+} 
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header .info .container{
+    width: 1000px;
+    position: relative;
+    
+}
+
+header .info .container .left{
+    width: 55%;
+    padding-top: 95px;
+    /* margin-right: 10px; */
+    color: white;
+    text-align: justify;
+    font-family: Arial;
+    position: absolute;
+}
+
+header .info .container .left p{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+}
+header .info .container .left h1{
+    
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-top: 0;
+   
+}
+header .info .container .left h1 + p{
+    text-transform: capitalize;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+header .info .container .left li a{
+    padding: 5px 25px;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+header .info .container .right{
+    width: 40%;
+    height: 440px;
+    background-color:  rgba(17, 23, 38, .7);
+    position: absolute;
+    right: 0;
+    top: 10px;
+    border: thin solid #666;
+    
+  
+   
+}
+
+header .info .container .right .container{
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+    padding:15px 35px;
+   
+    
+}
+
+header .info .container .right .container select {
+
+    width:30%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 15px;
+    color: rgb(182, 182, 182);
+    margin-bottom: 15px;
+    display: block;
+  
+}
+
+header .info .container .right .container .pickup{
+
+    width:14%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 15px;
+    color: rgb(184, 184, 184);
+    margin-bottom: 15px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+header .info .container .right .container .pickup + input[type=datetime]{
+
+    width:13%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 15px;
+    color: rgb(107, 106, 106);
+    margin-bottom: 15px;
+    display: inline-block
+}
+
+header .info .container .right .container input[type=text],input[type=email],input[type=tel]{
+    width:28.5%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 15px;
+    color: rgb(107, 106, 106);
+    margin-bottom: 15px;
+    display: block;
+}
+
+header .info .container .right .container input[type=submit]{
+    list-style: none;
+    width: 300px;
+    height: 35px;
+    background-color: #F9B700;   
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* End header */
+
+
+
+/* start service */
+
+.services .container .info{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+}
+
+.services .container .info h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.services .container .info span{
+    display: inline-block;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #a7a7a7;
+    margin-bottom: 50px;
+  
+}
+
+
+.services .container .items{
+    width: 900px ;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.services .container .items .item{
+    width: 35%;
+    height: 190px;
+    background-color: #EDEDF7;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+
+.services .container .items .item .icon{
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+
+}
+.services .container .items .item h4{
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    font-family:  sans-serif;
+    letter-spacing: .5px;
+}
+
+.services .container .items .item p{
+    position: absolute;
+    top: 66px;
+    left: 20px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b1b1b3;
+    text-align:left;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+
+/* end services */
+
+
+/* start network */
+
+.networks .container{
+    height: 400px;
+    width: 1100px;
+    margin-top: 100px;
+
+}
+
+.networks .container .car{
+    width: 300px;
+    padding-left: 20px;
+    height: 200px;
+    float: left;
+    z-index: 1;
+}
+
+.networks .container .car img{
+    max-width: 500px;
+    padding-left: 10px;
+    max-height: 350px;
+}
+
+
+.clear{
+    clear:both;
+}
+
+.networks .container .info{
+    width: 500px;
+    height: 200px;
+    float: right;
+    z-index: 2;
+}
+
+.networks .container .info h1{
+    text-transform: capitalize;
+    text-align:justify;
+   
+}
+
+.networks .container .info span{
+    text-transform: capitalize;
+    text-align:justify;
+    color:#666768;
+   
+}
+
+.networks .container .info p{
+    text-transform: capitalize;
+    text-align:justify;
+    color:#b7b8b9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.networks .container .info a{
+    line-height: 30px;
+    padding: 0 25px;
+    background-color: #F9B700;
+    font-size: 15px;
+   
+    
+}
+
+
+/* end network */
+
+
+
+/* start model */
+
+.models .container .info{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+
+.models .container .info h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize
+}
+.models .container .info span{
+    display: inline-block;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #a7a7a7;
+    margin-bottom: 50px;
+}
+
+.models .container .model{
+    height: 400px;
+    width: 890px;
+
+}
+
+.models .container .model .car{
+    width: 40%;
+    height: auto;
+    float: right;
+    z-index: 1;
+}
+
+.models .container .model .car img{
+    max-width: 450px;
+    padding-left: 10px;
+    max-height: 550px;
+}
+
+.models .container .model .text {
+    width: 60%;
+    height: 100px;
+    float: left;
+    padding: 0;
+}
+.models .container .model .text .data .l{
+    text-transform: capitalize;
+    text-align:left;
+    font-size: 20px;
+    
+   
+}
+
+.models .container .model .text .data .l + span{
+    text-transform: capitalize;
+    text-align:right;
+    font-size: 35px;
+    color:#F9B700;
+    float: right;
+    font-weight: bold;
+    padding-bottom: 30px;
+   
+   
+}
+
+.models .container .model .text .data  p{
+    text-transform: capitalize;
+   line-height: 22px;
+    margin: 0;
+    text-align:justify;
+    color:#b7b8b9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.models .container .model .text .data li {
+    margin: 20px 0;
+    background-color: #222222;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 45px;
+}
+
+.models .container .model ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-left: 280px;
+    
+
+
+}
+
+.models .container .model ul li.active{
+    width: 10px;
+    height: 10px;
+    background-color:#F9B700 ;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    margin-top: 250px;
+    display: inline-block;  
+}
+.models .container .model ul li{
+    width: 10px;
+    height: 10px;
+    background-color:#BFBFBF ;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    margin-top: 250px;
+    display: inline-block;  
+}
+
+
+/* end model */
+
+/* start banner */
+
+.banner{
+    width: 1220;
+    height: 320px;
+    background-image: linear-gradient(
+    rgba(21, 22, 63, 0.8),rgba(10, 14, 36, 0.8)
+    ), url(../Images/callaction-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 0;
+
+   
+}
+.banner .container{
+    width: 1100px;
+    text-align: center;
+    color: white;
+    padding-top: 30px
+
+
+}
+
+.banner .container .info h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+
+.banner .container .info p{
+    line-height: 30px;
+    text-align: center;
+}
+.banner .container .info .btn{
+    width: 270px;
+    height: 30px;
+    text-transform: capitalize;
+    text-align:center;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: transparent;
+    padding-top: 10px;
+    border: 1px solid #E8A518;
+    
+
+}
+
+.banner .container .info .btn a{
+    color: #f1b023;
+    text-align: center;
+}
+
+/* end banner */
+
+/* start blog */
+
+.blogs .container{
+    height: 500px;
+    margin-top: 100px;
+
+}
+.blogs .container .info{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+
+.blogs .container .info h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize
+}
+.blogs .container .info span{
+    display: inline-block;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #a7a7a7;
+    margin-bottom: 50px;
+}
+.blogs .container .items{
+    width: 900px ;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.blogs .container .items .item{
+    width: 23%;
+    height: 190px;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+
+.blogs .container .items .item figure {
+    padding: 4px;
+    margin: auto;
+    width: 100%;
+}
+  
+.blogs .container .items .item figure figcaption {
+    background-color: black;
+    width: 140px;
+    height: 5px;
+    color: rgb(139, 139, 139);
+    line-height: 4px;
+    padding: 11px 0;
+    text-align: center;
+    font-size: 15px;
+  }
+
+.blogs .container .items .item figure h3{
+    font-size: 16px;
+    font-family: Times, serif;
+
+}
+
+.blogs .container .items .item figure p{
+
+    color: rgb(161, 161, 161);
+    font-size: 16px;
+    font-family: Times, serif;
+}
+
+.blogs .container .items .item figure .icons{
+
+   width: 220px;
+   height: 40px;
+    display: inline-block;
+    
+    
+}
+
+.blogs .container .items .item figure .icons .s{
+   
+    display: inline-block;
+    margin-right: 42px; 
+    color: rgb(161, 161, 161);
+    font-size: 15px;
+    
+
+}
+.blogs .container .items .item figure .icons li{
+   
+    display: inline-block; 
+    color: rgb(161, 161, 161);
+    font-size: 15px;
+    
+}
+
+
+/* footer */
+
+footer{
+    /* width: 100%;*/
+    height: 390px; 
+    background-color: #04091D;
+
+}
+footer .container .items{
+    width: 900px ;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+footer .container .items .item{
+    width: 18%;
+    height: 190px;
+    color: white;
+
+}
+
+footer .container .items .item  h3{
+    margin-top: 80px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+footer .container .items .item ul{
+    
+    list-style: none;
+    text-align: left;
+    color: rgba(100, 100, 100, 0.8);
+    
+}
+footer .container .items .item ul li{
+    
+    line-height: 30px;
+    text-transform: capitalize;
+    
+}
+
+footer .container .items .item p {
+    padding-left: 26px;
+    height: 20px;
+    text-align: center;
+    color: rgba(100, 100, 100, 0.8);
+    display: inline-block;
+   
+
+}
+
+footer .container .items .item.social ul{
+ 
+    text-align: left ;
+}
+
+
+footer .container .items .item.social ul li {
+    padding: 0;
+    margin-right: 3px;
+    display: inline-block;
+    
+}
+
+footer .container .items .item input[type=email]{
+    width:200px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 11px;
+    color: rgb(107, 106, 106);
+    display: inline;
+    po
+    
+    
+}
+
+footer .container .items .item .test{
+    padding-left: 30px;
+    width: 242px;
+    position: relative;
+    
+
+}
+
+footer .container .items .item .test a{
+    margin-top: 0;
+    width:20px;
+    height: 33px;
+    border: none;
+    padding-left: 11px;
+    background-color: rgb(204, 157, 27);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+footer .container p{
+    text-align: center;
+    color: rgb(90, 90, 90);
+}
+
